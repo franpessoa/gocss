@@ -1,0 +1,25 @@
+{
+  "name": "gocss",
+  "version": "1.0.0",
+  "description": "A CSS framework for those who hate CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss *.css --dir dist",
+    "watch": "postcss *.css --dir dist --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franpessoa/gocss.git"
+  },
+  "author": "Francisco Pessoa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/franpessoa/gocss/issues"
+  },
+  "homepage": "https://github.com/franpessoa/gocss#readme",
+  "dependencies": {
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0"
+  }
+}
