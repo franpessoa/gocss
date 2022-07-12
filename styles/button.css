@@ -1,0 +1,12 @@
+button {
+    border: none;
+    border-radius: 10px;
+    transition: .2s ease-in-out 0s;
+}
+
+button:hover {
+    background-color: rgb(105,105,105);
+    transform: scale(1.1);
+    cursor: pointer;
+    color: #ffff;
+}

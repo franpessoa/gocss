@@ -1,0 +1,11 @@
+/*
+* GoCSS: The CSS framework for those who hate css
+*/
+
+@import "styles/text.css";
+@import "styles/body.css";
+@import "styles/button.css";
+@import "styles/a.css";
+@import "styles/highlight.css";
+@import "styles/input.css";
+@import "styles/utils.css"

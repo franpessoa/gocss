@@ -4,8 +4,8 @@
   "description": "A CSS framework for those who hate CSS",
   "main": "index.js",
   "scripts": {
-    "build": "postcss main.css --dir dist",
-    "watch": "postcss main.css --dir dist --watch"
+    "build": "postcss ./index.css --dir dist",
+    "watch": "postcss ./index.css --dir dist --watch"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
     "cssnano": "^5.1.12",
     "postcss": "^8.4.14",
     "postcss-cli": "^10.0.0",
-    "postcss-google-font": "^1.1.0",
     "postcss-import": "^14.1.0"
   }
 }

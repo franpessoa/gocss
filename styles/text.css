@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Raleway:wght@500&family=Quattrocento&display=swap');
+
+.title, h1, h2 {
+    font-size: 3.3rem;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5ch;
+}
+
+h2, h3, .subtitle {
+    font-size: 2rem;
+    font-wheight: 400;
+    color: rgb(105,105,105);
+    font-family: 'Quattrocento', serif;
+}
+
+h4, p, a, .text, input, textarea, button, div, section, article, select {
+    font-size: 1.2rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-wheight: 400;
+    line-height: 1.5ch; 
+}
+
+
